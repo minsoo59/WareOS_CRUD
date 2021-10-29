@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+tools:context=".MainActivity"
+tools:deviceIds="wear"
+>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/inner_frame_layout_padding">
+    <EditText
+        android:id="@+id/idTxt"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/nameTxt"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:ems="10"
+        android:hint="NAME"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/galaxyTxt"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="GALAXY"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/typeTxt"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:hint="StarType"
+        android:inputType="textCapWords" />
+
+    <Button
+        android:id="@+id/insertBtn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="8dp"
+        android:text="INSERT" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="85dp"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginLeft="8dp"
+        android:text="DELETE" />
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="80dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginLeft="85dp"
+        android:layout_height="40dp"
+        android:text="VIEW ALL" />
+
+</FrameLayout>
+</LinearLayout>

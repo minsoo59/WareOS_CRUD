@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --legacy-watch --exec babel-node src/init.js"
+    "dev": "nodemon --legacy-watch --exec babel-node ./src/init.js"
   },
   "author": "",
   "license": "ISC",

@@ -1,11 +1,11 @@
-package com.example.newandroidappcrud
+package com.example.testCRUD
 
 import android.app.AlertDialog
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.newandroidappcrud.databinding.ActivityMainBinding
+import com.example.testCRUD.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

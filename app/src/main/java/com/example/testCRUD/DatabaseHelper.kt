@@ -1,4 +1,4 @@
-package com.example.newandroidappcrud
+package com.example.testCRUD
 
 import android.content.ContentValues
 import android.content.Context
